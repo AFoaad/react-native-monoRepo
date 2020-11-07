@@ -1,0 +1,24 @@
+{
+    "name": "@app-structure/commons",
+    "version": "2.1.52",
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "types": "./dist/types.d.ts",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "tsc -p ."
+    },
+    "devDependencies": {
+      "@types/node": "12.12.14",
+      "@types/react": "^16.9.14",
+      "axios": "^0.19.0",
+      "tslib": "^1.10.0",
+      "typescript": "3.7.2"
+    },
+    "peerDependencies": {
+      "react": "^16.12.0"
+    }
+  }
+  
